@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding 0;
+	background: url(coffee.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1080px;
+}
+
+
+.nav {
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+
+.nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav input[type=text] {
+    
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.nav .search {
+    float: right;
+}
+
+.nav .search button {
+    float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;}
+
+h1 {
+ text-align: center;
+}
+
+.header {
+ padding: 15px;
+}
+
+.login{
+width: 320px;
+height: 420px;
+background: #333;
+color: #fff;
+top:50%;
+left:50%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 100px 40px;
+}
+
+.login input{
+width: 100%;
+}
+
+.register input{
+width: 100%;
+}
+
+.login input[type="text"], input[type="password"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+color: white;
+}
+.register input[type="text"], input[type="password"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+color: white;
+}
+
+
+.login input[type="submit"]{
+border: none;
+outline: none;
+background: #4CAF50;
+color: #fff;
+font-size: 16px;
+height: 35px;
+border-radius: 20px;
+}
+
+.register input[type="submit"]{
+border: none;
+outline: none;
+background: #4CAF50;
+color: #fff;
+font-size: 16px;
+height: 35px;
+border-radius: 20px;
+}
+
+
+.login input[type="submit"]:hover{
+cursor: pointer;
+background: green;
+}
+
+.register input[type="submit"]:hover{
+cursor: pointer;
+background: green;
+}
+
+.register {
+	width: 320px;
+	height: 480px;
+	background: #333;
+	color: #fff;
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 50px 40px;
+}
+
+.avatar{
+position: absolute;
+width: 80px;
+height: 80px;
+top: 20px;
+left: 120px;
+}
