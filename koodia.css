@@ -5,10 +5,20 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 1080px;
+	padding-bottom: 20px;
 }
 
-
+footer{
+position: fixed;
+bottom: 0px;
+width: 100%;
+color: white;
+background-color: #333;
+text-align: left;
+}
 .nav {
+    
+    
     background-color: #333;
     overflow: hidden;
     margin-bottom: 40px;
@@ -48,6 +58,17 @@ body{
 
 .nav .search {
     float: right;
+margin-right: 70px;
+margin-top: 15px;
+color: white;
+}
+
+.nav .logout{
+float: right;
+margin-right: 0px;
+margin-top: 0px;
+color: white;
+
 }
 
 .nav .search button {
@@ -65,7 +86,8 @@ h1 {
 }
 
 .header {
- padding: 15px;
+ padding: 2px;
+
 }
 
 .login{
@@ -149,6 +171,38 @@ background: green;
 	padding: 50px 40px;
 }
 
+.account {
+	width: 320px;
+	height: 480px;
+	background: #333;
+	color: #fff;
+	top:30%;
+	left:50%;
+	position: relative;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 50px 40px;
+}
+
+.account input[type=text]{
+	color: black;
+}
+
+.account input[type=email]{
+	color: black;
+}
+
+
+.account input[type="submit"]{
+border: none;
+outline: none;
+background: #4CAF50;
+color: #fff;
+font-size: 16px;
+height: 35px;
+border-radius: 20px;
+}
+
 .avatar{
 position: absolute;
 width: 80px;
@@ -156,3 +210,85 @@ height: 80px;
 top: 20px;
 left: 120px;
 }
+
+.icon{
+position: absolute;
+width: 40px;
+height: 40px;
+top: 5px;
+right: 90px;
+}
+
+.donut {
+position: absolute;
+left: 25%;
+top: 250px;
+}
+.col-md-4 {
+top: 150px;
+color: white;
+}
+
+.products{
+border: 2px solid #333;
+background-color: #333;
+padding: 5px;
+margin-bottom: 5px;
+
+}
+
+.quant{
+margin-left: 30px;
+width:30%;
+}
+
+.table{
+color: white;
+background-color: #333;
+}
+.table2{
+color: white;
+background-color: #333;
+width: 50%;
+position: relative;
+margin-top: 30px;
+left: 25%;
+}
+
+.checkout{
+background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	border-radius: 4px;
+
+}
+
+
+
+.checkout:hover{
+background-color: #009548;
+    border: none;
+    color: white;
+    padding: 2px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+		border-radius: 4px;
+}
+
+@media only screen and (max-width:600px){
+.icon{
+visibility: hidden;
+}
+footer{
+visibility:hidden;
+}
+}
+

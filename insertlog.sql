@@ -1,0 +1,1 @@
+INSERT INTO `log`(`id`, `username`, `password`, `Firstname`, `Lastname`, `Email`, `Address`) VALUES (1, 'testuser1', '123', 'bob', 'joe', 'bob.joe@gmail.com', 'newyork');

@@ -1,0 +1,1 @@
+INSERT INTO `products` (`Id`, `ProductName`, `Color`, `Price`) VALUES ('1', 'chocolate donut', 'brown', '2');
